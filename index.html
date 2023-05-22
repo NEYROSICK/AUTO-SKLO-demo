@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link rel="stylesheet" href="css/style.min.css" />
+  <title>AUTO-SKLO</title>
+</head>
+
+  <body>
+    <header class="header">
+  <div class="container">
+    <div class="desktop-header">
+      <a href="index.html" class="main-logo"
+        ><span class="logo">AUTO</span>SKLO</a
+      >
+      <nav class="navigation">
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="#our-services" class="nav-link">Наші послуги</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#services-prices" class="nav-link">Послуги і ціни</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#why-us" class="nav-link">Чому ми</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header-contacts-div">
+        <address class="address">
+          <a href="tel:0938684331" class="address-link">
+            <svg class="header-link-svg">
+              <use href="./img/icons/icons.svg#icon-phone"></use>
+            </svg>
+            (093) 86 84 331</a
+          >
+          <a href="tel:0977297993" class="address-link">
+            <svg class="header-link-svg">
+              <use href="./img/icons/icons.svg#icon-phone"></use>
+            </svg>
+            (097) 72 97 993</a
+          >
+        </address>
+        <a href="#contacts" class="header-btn">
+          <svg class="btn-link-svg">
+            <use href="./img/icons/icons.svg#location"></use>
+          </svg>
+          Де нас шукати</a
+        >
+      </div>
+    </div>
+    <div class="mobile-header">
+      <h2 class="main-logo"><span class="logo">AUTO</span>SKLO</h2>
+      <button class="mobile-btn js-open-menu" type="button">
+        <svg class="header-svg">
+          <use href="./img/icons/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="mobile-backdrop js-menu-container">
+      <div class="mobile-modal">
+        <button class="backdrop-button js-close-menu" type="button">
+          <svg class="backdrop-btn-svg">
+            <use href="./img/icons/icons.svg#icon-burger-close"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item">
+              <a href="#our-services" class="mobile-nav-link cool-gradient"
+                >Наші послуги</a
+              >
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#services-prices" class="mobile-nav-link"
+                >Послуги і ціни</a
+              >
+            </li>
+            <li class="mobile-nav-item">
+              <a href="#why-us" class="mobile-nav-link">Чому ми</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address-mobile">
+          <p class="header-contacts-mobile tagline">Contacts</p>
+          <a href="tel:0938684331" class="mobile-address-link">
+            <svg class="address-link-svg-mobile">
+              <use href="./img/icons/icons.svg#icon-mobile-phone"></use>
+            </svg>
+            (093) 86 84 331</a
+          >
+          <a href="tel:0977297993" class="mobile-address-link">
+            <svg class="address-link-svg-mobile">
+              <use href="./img/icons/icons.svg#icon-mobile-phone"></use>
+            </svg>
+            (097) 72 97 993</a
+          >
+          <p class="header-contacts-mobile tagline">Address</p>
+          <a
+            class="mobile-address-link"
+            href="https://goo.gl/maps/dG5AnJ9az6mraDqa8"
+          >
+            <p class="gradient-text">
+              <svg class="map-svg">
+                <use href="./img/icons/icons.svg#icon-map"></use>
+              </svg>
+              м. Львів, Рясне 1| Вул. Професора Ковалика 1
+            </p>
+          </a>
+        </address>
+      </div>
+    </div>
+  </div>
+</header>
+
+    <main>
+      <section class="section hero">
+  <div class="container">
+    <h1 class="title hero-title">Заміна та продаж <br />автоскла</h1>
+    <p class="hero-text">
+      Надаємо послуги із продажу та встановлення автоскла у Львові
+    </p>
+  </div>
+</section>
+ <section class="section" id="our-services">
+  <div class="container service-container">
+    <p class="tagline service-tagline">
+      для тих кто цінує високу якість та швидкість
+    </p>
+    <h2 class="title service-title">Наші послуги</h2>
+    <ul class="service-list">
+      <li class="service-item">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="img/our-services/sklo-sell=desk.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="img/our-services/sklo-sell-tablet.jpg"
+          />
+          <source />
+          <img
+            src="img/our-services/sklo-sell-mobile.jpg"
+            alt="Продаж автоскла"
+            class="service-image"
+          />
+        </picture>
+        <div class="service-text">
+          <p class="subtitle-service">Продаж автоскла</p>
+          <p class="descr-service">
+            Маємо великий асортимент атоскла в нашому салоні. Підберемо скло для
+            кожного клієнта!
+          </p>
+        </div>
+      </li>
+      <li class="service-item">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="img/our-services/sklo-repair-desk.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="img/our-services/sklo-repair-tablet.jpg"
+          />
+
+          <img
+            src="img/our-services/sklo-repair-mobile.jpg"
+            alt="Заміна та ремонт"
+            class="service-image"
+          />
+        </picture>
+        <div class="service-text">
+          <p class="subtitle-service">Заміна та ремонт автоскла</p>
+          <p class="descr-service">
+            Якісна та швидка заміна автоскла від професіоналів в нашему салоні
+          </p>
+        </div>
+      </li>
+      <li class="service-item">
+        <picture>
+          <source
+            media="(min-width: 1200px)"
+            srcset="img/our-services/sklo-equipage-desk.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="img/our-services/sklo-equipage-tablet.jpg"
+          />
+
+          <img
+            src="img/our-services/sklo-equipage-mobile.jpg"
+            alt="Виїзд бригади"
+            class="service-image"
+          />
+        </picture>
+        <div class="service-text">
+          <p class="subtitle-service">Виїзд бригади</p>
+          <p class="descr-service">
+            Для Вашої зручності є можливість замовити виїзд бригади для заміни
+            автоскла
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+      <section class="section services-prices-section" id="services-prices">
+  <div class="container">
+    <p class="tagline services-prices-tagline">
+      Дізнайтесь актуальні ціни на усі види наших робіт
+    </p>
+    <h2 class="title services-prices-title">Послуги і ціни</h2>
+    <table>
+      <tbody class="services-prices-list">
+        <tr>
+          <th class="service">Вид робіт</th>
+          <th class="service">Середній клас</th>
+          <th class="service">Джипи, мікроавтобус</th>
+          <th class="service">Вантажні автомобілі</th>
+        </tr>
+        <tr>
+          <td class="service service-name">Заміна лобового скла на клей</td>
+          <td class="service">від 1000 грн</td>
+          <td class="service">від 1200 грн</td>
+          <td class="service">від 2000 грн</td>
+        </tr>
+        <tr>
+          <td class="service service-name">
+            Встановлення заднього скла на клей
+          </td>
+          <td class="service">від 1000 грн</td>
+          <td class="service">від 1300 грн</td>
+          <td class="service">—</td>
+        </tr>
+        <tr>
+          <td class="service service-name">
+            Встановлення лобового скла на резинку
+          </td>
+          <td class="service">від 600 грн</td>
+          <td class="service">від 900 грн</td>
+          <td class="service">від 1000 грн</td>
+        </tr>
+        <tr>
+          <td class="service service-name">
+            Встановлення заднього скла на резинку
+          </td>
+          <td class="service">від 600 грн</td>
+          <td class="service">від 900 грн</td>
+          <td class="service">—</td>
+        </tr>
+        <tr>
+          <td class="service service-name">Встановлення бокового скла</td>
+          <td class="service">від 800 грн</td>
+          <td class="service">від 800 грн</td>
+          <td class="service">від 800 грн</td>
+        </tr>
+        <tr>
+          <td class="service service-name">
+            Встановлення бокового кузовного скла на клей
+          </td>
+          <td class="service">від 700 грн</td>
+          <td class="service">від 700 грн</td>
+          <td class="service">від 700 грн</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+ <section id="why-us" class="section why-us">
+  <div class="container">
+    <div class="why-us-all">
+      <div class="why-us-text-div">
+        <p class="tagline why-tagline">ЧОМУ МИ</p>
+        <h2 class="title why-us-title">Потрібно замінити автоскло?</h2>
+        <p class="why-us-text">
+          Виконуємо якісно та з гарантією заміну автоскла на вище вказаних видах
+          транспорту, доступна будь яка форма оплати.
+        </p>
+      </div>
+      <div class="why-us-list-div">
+        <ul class="why-us-list">
+          <li class="why-us-item">
+            <div class="why-us-div">
+              <p class="why-us-item-main-text">900</p>
+              <p class="why-plus">+</p>
+            </div>
+            <p class="why-us-item-secondary-text">Задоволених клієнтів</p>
+          </li>
+          <li class="why-us-item">
+            <div class="why-us-div">
+              <p class="why-us-item-main-text">16</p>
+              <p class="why-plus">+</p>
+            </div>
+            <p class="why-us-item-secondary-text">Років на ринку</p>
+          </li>
+          <li class="why-us-item">
+            <div class="why-us-div">
+              <p class="why-us-item-main-text">6/7</p>
+            </div>
+            <p class="why-us-item-secondary-text">Днів в тижні</p>
+          </li>
+          <li class="why-us-item">
+            <div class="why-us-div">
+              <p class="why-us-item-main-text">3</p>
+              <p class="why-plus">+</p>
+            </div>
+            <p class="why-us-item-secondary-text">
+              Працівників працює на виїзд
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer id="contacts">
+  <div class="container">
+    <div class="footer-container">
+      <a href="#" class="footer-logo">
+        <h2 class="footer-logo"> <span class="footer-logo-span">AUTO</span>SKLO</h2>
+      </a>
+
+      <div>
+        <address  class="footer-contact">
+          <ul class="contacts-list">
+            <li class="footer-li footer-map-li">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4325.211002422457!2d23.947150218665776!3d49.86526725164174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ade0d366bf19f%3A0x3406b6e4b37de4e3!2sGarage%20cooperative%20conveyor%20(brick)!5e0!3m2!1sru!2sno!4v1684524370703!5m2!1sru!2sno" 
+                width="150"
+                height="100"
+                class="footer-map"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              >
+              </iframe>
+            </li>
+            <li class="footer-li footer-addr-li">
+              <h4 class="footer-address-title">Адреса</h4>
+              <a
+                target="_blank"
+                href="https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%A5%D1%80%D0%B5%D1%89%D0%B0%D1%82%D0%B8%D0%BA,+28%2F2,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.448296,30.521768,17z/data=!4m6!3m5!1s0x40d4ce512b5d3293:0xd6109f20c1d87550!8m2!3d50.448296!4d30.521768!16s%2Fg%2F11c234dp28"
+                class="footer-link footer-adr-li"
+              >
+                <svg class="footer-icon">
+                  <use href="./img/icons/icons.svg#icon-map"></use>
+                </svg>
+                вул. Професора Ковалика, 1 | Рясне 1, м. Львів 
+              </a>
+            </li>
+            <li class="footer-li s-li no-margin-li">
+              <h4 class="footer-contacts-title">Контакти</h4>
+
+              <a href="tel:+380938684331" class="footer-link">
+                <svg class="footer-icon">
+                  <use href="./img/icons/icons.svg#icon-mobile-phone"></use>
+                </svg>
+                +380 93 868 43 31
+              </a>
+            </li>
+            <li class="footer-li s-li">
+              <a href="tel:+380977297993" class="footer-link">
+                <svg class="footer-icon">
+                  <use href="./img/icons/icons.svg#icon-mobile-phone"></use>
+                </svg>
+                +380 97 729 79 93
+              </a>
+            </li>
+            <li class="footer-li no-margin-li">
+              <h4 class="schedule-title">Графік роботи</h4>
+              <p class="schedule">Щоденно з 9:00 до 18:00</p>
+            </li>
+          </ul>
+        </address>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script src="js/app.min.js"></script>
+  </body>
+</html>
